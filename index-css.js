@@ -28,9 +28,10 @@ var _CSS
         }
         
         libs.sql.newSQL('default', $requestState).done(function ($sql) {
-            
-            var tblCSS = $sql.openTable('css');
-            var tblNS = $sql.openTable('namespace');
+
+            const tblCSS = $sql.openTable('css');
+            const tblNS = $sql.openTable('namespace');
+            const tblLayers = $sql.openTable('CSSLayer');
             $sql.query()
                 .get([
                     tblCSS.col('name'),
@@ -41,6 +42,8 @@ var _CSS
                 .eq(tblCSS.col('mediaquery'), 0)
                 .eq(tblCSS.col('namespace'), tblNS.col('ID'))
                 .eq(tblNS.col('name'), $requestState.namespace)
+                .eq(tblCSS.col('layer'), tblLayers.col('ID'))
+                .orderBy(tblLayers.col('order'))
                 .execute()
                 .done(function ($rows) {
                 
