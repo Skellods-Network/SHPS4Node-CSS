@@ -1,12 +1,78 @@
 {
+  "_args": [
+    [
+      {
+        "raw": "SHPS4Node-CSS@^1.0.0",
+        "scope": null,
+        "escapedName": "SHPS4Node-CSS",
+        "name": "SHPS4Node-CSS",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "C:\\Users\\g53092\\SHPS"
+    ]
+  ],
+  "_from": "SHPS4Node-CSS@>=1.0.0 <2.0.0",
+  "_id": "SHPS4Node-CSS@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/SHPS4Node-CSS",
+  "_nodeVersion": "4.4.7",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/SHPS4Node-CSS-1.0.0.tgz_1473083073308_0.43967942660674453"
+  },
+  "_npmUser": {
+    "name": "maruru",
+    "email": "me@marco-alka.de"
+  },
+  "_npmVersion": "3.10.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "SHPS4Node-CSS@^1.0.0",
+    "scope": null,
+    "escapedName": "SHPS4Node-CSS",
     "name": "SHPS4Node-CSS",
-    "version": "1.0.0",
-    "description": "CSS Handler used by SHPS",
-    "author": "Marco Alka <me@marco-alka.de>",
-    "main": "index-css.js",
-    "dependencies": {
-        "node-mod-load": "^2.1.0",
-        "q": "^1.2.0",
-        "vasync": "^1.6.0"
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/SHPS4Node-CSS/-/SHPS4Node-CSS-1.0.0.tgz",
+  "_shasum": "8d11edcaeca94f4215532e24ff4a352a5a08fdad",
+  "_shrinkwrap": null,
+  "_spec": "SHPS4Node-CSS@^1.0.0",
+  "_where": "C:\\Users\\g53092\\SHPS",
+  "author": {
+    "name": "Marco Alka",
+    "email": "me@marco-alka.de"
+  },
+  "dependencies": {
+    "node-mod-load": "^2.1.0",
+    "q": "^1.2.0",
+    "vasync": "^1.6.0"
+  },
+  "description": "CSS Handler used by SHPS",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8d11edcaeca94f4215532e24ff4a352a5a08fdad",
+    "tarball": "https://registry.npmjs.org/SHPS4Node-CSS/-/SHPS4Node-CSS-1.0.0.tgz"
+  },
+  "gitHead": "592dc410b4767af4f6b94f46c7376d9263079a58",
+  "main": "index-css.js",
+  "maintainers": [
+    {
+      "name": "maruru",
+      "email": "me@marco-alka.de"
     }
+  ],
+  "name": "SHPS4Node-CSS",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "1.0.0"
 }
